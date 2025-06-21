@@ -1,0 +1,22 @@
+==================== Model Training Summary ====================
+ Data loaded from: final_cleaned_data_large.csv
+ Total records: 31
+ Features used: ['Age', 'Salary', 'City_Chennai', 'City_Delhi', 'City_Hyderabad', 'City_Mumbai', 'City_Pune']
+
+==================== Model Evaluation ====================
+ Accuracy: 0.86
+ Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      0.83      0.91         6
+           1       0.50      1.00      0.67         1
+
+    accuracy                           0.86         7
+   macro avg       0.75      0.92      0.79         7
+weighted avg       0.93      0.86      0.87         7
+
+==================== Notes ====================
+ Gender was encoded as: Male = 0, Female = 1
+ City was one-hot encoded
+ Model used: LogisticRegression
+=================================================
